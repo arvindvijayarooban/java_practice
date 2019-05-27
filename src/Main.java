@@ -21,7 +21,7 @@ public class Main {
 //        e2.testAppend();
 //
 //        ExampleThree e3 = new ExampleThree();
-//        e3.testExample3();
+//        e3.testExampleAgain("Java");
 //
 //        int []a = {1,2,3,4};
 //        System.out.println(a instanceof Object);
@@ -36,6 +36,10 @@ public class Main {
 //
 //        x =12;
 //        return x;
-//    }
+
+
+
+   }
+
 
 }

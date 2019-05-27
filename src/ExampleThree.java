@@ -9,4 +9,23 @@ public class ExampleThree {
        System.out.println(a[1][1]);
 
     }
+
+    public void testExample3(String s){
+
+       String first = s;
+       first.concat("SE 6");
+        System.out.println(first);
+       first.replace('6','7');
+       System.out.println(first);
+
+    }
+    public void testExampleAgain(String s){
+
+        String str = s ;
+        s.concat("SE 6");
+        s.toLowerCase();
+        System.out.println(s);
+
+    }
 }
+
