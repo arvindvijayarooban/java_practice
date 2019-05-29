@@ -1,3 +1,5 @@
+package com.example.javapractice;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,17 +19,17 @@ public class Main {
 //        }catch( Exception e1){
 //            System.out.println(e1);
 //    }
-//        ExampleTwo e2 = new ExampleTwo();
+//        com.example.javapractice.ExampleTwo e2 = new com.example.javapractice.ExampleTwo();
 //        e2.testAppend();
 //
-//        ExampleThree e3 = new ExampleThree();
+//        com.example.javapractice.ExampleThree e3 = new com.example.javapractice.ExampleThree();
 //        e3.testExampleAgain("Java");
 //
 //        int []a = {1,2,3,4};
 //        System.out.println(a instanceof Object);
 //
 //        int x =10;
-//        int y = new Main().change(x);
+//        int y = new com.example.javapractice.Main().change(x);
 //        System.out.print(x+y);
 //
 //    }

@@ -1,3 +1,5 @@
+package com.example.javapractice;
+
 public class ExampleThree {
 
 
