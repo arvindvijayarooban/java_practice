@@ -1,8 +1,6 @@
-<<<<<<< HEAD:src/com/example/javapractice/Main.java
 package com.example.javapractice;
-=======
 import scope.LoopMethodScope;
->>>>>>> branch1:src/Main.java
+
 
 import java.util.ArrayList;
 import java.util.List;
