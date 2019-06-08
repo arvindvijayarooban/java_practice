@@ -45,6 +45,9 @@ public class Main {
 
         test.testScope();
 
+        AnotherLoopTest test2 = new AnotherLoopTest();
+        test2.testLoop();
+
 
    }
 
