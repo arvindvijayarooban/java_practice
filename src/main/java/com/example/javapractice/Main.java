@@ -1,10 +1,5 @@
 package com.example.javapractice;
-import scope.LoopMethodScope;
-import scope.SwitchScope;
-
-
-import java.util.ArrayList;
-import java.util.List;
+import com.scope.SwitchScope;
 
 public class Main {
 

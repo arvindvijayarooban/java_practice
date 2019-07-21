@@ -1,4 +1,4 @@
-package scope;
+package com.scope;
 
 public class LoopMethodScope {
 
