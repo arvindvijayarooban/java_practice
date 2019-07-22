@@ -1,42 +1,19 @@
 package com.example.javapractice;
+import access.pond.duck.BadDuckling;
+import access.pond.duck.FatherDuck;
 import com.scope.SwitchScope;
-
+import access.pond.*;
 public class Main {
 
     public static void main(String[] args) {
-//        int x =10;
-//        int y = 2;
-//
-//        try{
-//            for(int z =2 ; z >=0; z--){
-//                int ans = x/z;
-//                System.out.println(ans + " ");
-//
-//            }
-//
-//        }catch( Exception e1){
-//            System.out.println(e1);
-//    }
-//        com.example.javapractice.ExampleTwo e2 = new com.example.javapractice.ExampleTwo();
-//        e2.testAppend();
-//
-//        com.example.javapractice.ExampleThree e3 = new com.example.javapractice.ExampleThree();
-//        e3.testExampleAgain("Java");
-//
-//        int []a = {1,2,3,4};
-//        System.out.println(a instanceof Object);
-//
-//        int x =10;
-//        int y = new com.example.javapractice.Main().change(x);
-//        System.out.print(x+y);
-//
-//    }
-//
-//    int change(int x){
-//
-//        x =12;
-//        return x;
 
+
+        FatherDuck fDuck = new FatherDuck();
+        BadDuckling bDuck = new BadDuckling();
+        bDuck.makeNoise();
+access.pond.duck.GoodDuckling gDuck = new access.pond.duck.GoodDuckling();
+gDuck.makeNoise();
+fDuck.makeNoise();
        // LoopMethodScope test = new LoopMethodScope();
 
         //test.testScope();
@@ -79,3 +56,35 @@ switchTest.testSwitch();
    }
 
 }
+//        int x =10;
+//        int y = 2;
+//
+//        try{
+//            for(int z =2 ; z >=0; z--){
+//                int ans = x/z;
+//                System.out.println(ans + " ");
+//
+//            }
+//
+//        }catch( Exception e1){
+//            System.out.println(e1);
+//    }
+//        com.example.javapractice.ExampleTwo e2 = new com.example.javapractice.ExampleTwo();
+//        e2.testAppend();
+//
+//        com.example.javapractice.ExampleThree e3 = new com.example.javapractice.ExampleThree();
+//        e3.testExampleAgain("Java");
+//
+//        int []a = {1,2,3,4};
+//        System.out.println(a instanceof Object);
+//
+//        int x =10;
+//        int y = new com.example.javapractice.Main().change(x);
+//        System.out.print(x+y);
+//
+//    }
+//
+//    int change(int x){
+//
+//        x =12;
+//        return x;
