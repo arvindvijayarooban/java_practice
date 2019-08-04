@@ -1,0 +1,36 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+<id>zip</id>
+<includeBaseDirectory>true</includeBaseDirectory>
+
+    <formats>
+        <format>zip</format>
+    </formats>
+
+    <files>
+    <file>
+        <source>javapractice.bat</source>
+        <outputDirectory>/</outputDirectory>
+    </file>
+<!--    <file>-->
+<!--        <source> ${project.build.directory}/${project.artifactId}-${project.version}.jar</source>-->
+<!--        -->
+<!--        <outputDirectory>/</outputDirectory>-->
+<!--    </file>-->
+</files>
+    <fileSets>
+        <fileSet>
+            <directory>C:\Users\User\Desktop\test\*.jar</directory>
+        <outputDirectory>\</outputDirectory>
+        </fileSet>
+
+    </fileSets>
+<dependencySets>
+    <dependencySet>
+        <outputDirectory>/</outputDirectory>
+        <excludes>
+            <exclude>${project.groupId}:${project.artifactId}:jar:*</exclude>
+        </excludes>
+    </dependencySet>
+</dependencySets>
+</assembly>
